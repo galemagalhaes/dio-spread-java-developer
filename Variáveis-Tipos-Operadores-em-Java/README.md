@@ -43,8 +43,8 @@ visibilidade modificador tipo nome valorInicial
 Tipos de dados são especificações dos tamanhos e valores que podem ser armazenados em determinada variável.
 
 #### Tipificação
-- Estática --> tipificação forte. A linguagem obriga a definir o tipo da variável no momento em que ela é criada e esse tipo não muda depois.
-- Dinâmica --> Tipificação fraca. A variável assume o tipo de acordo com o valor que é armazenado nela, por inferência.
+- Estática: tipificação forte. A linguagem obriga a definir o tipo da variável no momento em que ela é criada e esse tipo não muda depois.
+- Dinâmica: tipificação fraca. A variável assume o tipo de acordo com o valor que é armazenado nela, por inferência.
 
 #### Tipos
 - Primitivos: 
