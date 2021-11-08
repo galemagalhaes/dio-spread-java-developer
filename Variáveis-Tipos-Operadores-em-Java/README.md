@@ -50,8 +50,11 @@ Tipos de dados são especificações dos tamanhos e valores que podem ser armaze
 - Primitivos: 
 
 Numéricos: byte, short, int, long, float, double
+
 Textual: char
+
 Lógico: boolean (V ou F)
+
 - Compostos: String, entre outros...
 
 String não é um tipo primitivo, mas foi "primitivado" devido a necessidade constante do uso de texto no desenvolvimento de código.
