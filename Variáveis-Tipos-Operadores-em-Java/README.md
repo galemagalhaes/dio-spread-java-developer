@@ -71,8 +71,8 @@ String não é um tipo primitivo, mas foi "primitivado" devido a necessidade con
 - boolean: false
 
 #### Uso de aspas
-- aspas simples '': usa-se com o tipo char
-- aspas duplas "": usa-se com o tipo String
+- aspas simples ' ': usa-se com o tipo char
+- aspas duplas " ": usa-se com o tipo String
 
 #### Escrita de tipos numéricos
 Os tipos numéricos diferem em tamanho e se tem ou não ponto flutuante. Em alguns casos é necessário colocar letras ao final do valor para determinar qual é o seu tipo
