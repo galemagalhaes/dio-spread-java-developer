@@ -34,3 +34,45 @@ visibilidade modificador tipo nome valorInicial
 - Deve ser usado o padrão camelCase (palavras compostas não tem espaço em braco entre elas, a separação é feita ao colocar letra **Maiúscula** no inicio de cada palavra que compõem o nome da variável.
 - Os nomes das variáveis devem ser expressivos e objetivos para não provovar confusão para quem vai ler ou dar manutenção no código;
 - Quando uma variável for constante, ou seja, seu valor não se altera durante a execução do código, ela deve ser escrita com todas as letras **MAIÚSCULAS** e se o nome for composto de mais palavras, essas devem ser separadas por "_".
+
+
+## Conceitos sobre tipos
+
+#### O que são tipos de dados?
+
+Tipos de dados são especificações dos tamanhos e valores que podem ser armazenados em determinada variável.
+
+#### Tipificação
+- Estática --> tipificação forte. A linguagem obriga a definir o tipo da variável no momento em que ela é criada e esse tipo não muda depois.
+- Dinâmica --> Tipificação fraca. A variável assume o tipo de acordo com o valor que é armazenado nela, por inferência.
+
+#### Tipos
+- Primitivos: 
+Numéricos: byte, short, int, long, float, double
+Textual: char
+Lógico: boolean (V ou F)
+- Compostos: String, entre outros...
+
+String não é um tipo primitivo, mas foi "primitivado" devido a necessidade constante do uso de texto no desenvolvimento de código.
+
+#### Valores default
+- byte: 0
+- short: 0
+- int: 0
+- long: 0L
+- float: 0.0F
+- double: 0.0d
+- char: '\u0000'
+- String (e objeto): null
+- boolean: false
+
+#### Uso de aspas
+- aspas simples '': usa-se com o tipo char
+- aspas duplas "": usa-se com o tipo String
+
+#### Escrita de tipos numéricos
+Os tipos numéricos diferem em tamanho e se tem ou não ponto flutuante. Em alguns casos é necessário colocar letras ao final do valor para determinar qual é o seu tipo
+- Tipo long: preocisa de um "L" ao final do valor;
+- Tipo float: precisa de um "f" ou "F" ao final do valor;
+- Tipo double: pode receber um "d" ao final do valor, mas se não for colocada nenhuma letra é inferido à variável de ponto flutuante o tipo double.
+ 
