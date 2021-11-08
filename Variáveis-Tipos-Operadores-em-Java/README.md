@@ -80,3 +80,54 @@ Os tipos numéricos diferem em tamanho e se tem ou não ponto flutuante. Em algu
 - Tipo float: precisa de um "f" ou "F" ao final do valor;
 - Tipo double: pode receber um "d" ao final do valor, mas se não for colocada nenhuma letra é inferido à variável de ponto flutuante o tipo double.
  
+
+## Conceitos sobre operadores
+
+#### O que são operadores aritméticos?
+
+Operadores são símbolos especiais responsáveis por realizar ações entre operandos (1, 2 ou mais) e retornar um resultado ao final da operação.
+
+#### Tipos de operadores
+
+- Pós-fixados: expressão++ ou espressão--
+
+Operadores pós-fixados realizam soma ou subtração de uma unidade ao final da operação, ou seja, executam a expressão e só depois a adição ou subtração. Utilizam apenas **1 operando**.
+
+- Prefixados: ++expressão ou --expressão
+
+Operadores prefixados realizam a soma ou subtração de uma unidade antes de executar a expressão. Também utilizam apenas **1 operando**.
+
+- Aritméticos: +, -, *, /, %
+
+Operadores aritméticos realizam soma, subtração, multiplicação, divisão ou resto da divisão, entre **2 ou mais operandos**.
+
+- Atribuição: =, +=, -=, *=, /= ou %=
+
+Operadores de atribuição determinam ou atribuem um valor a uma variável. Essa operação pode ser com soma, com subtração, com multiplicação, com divisão ou com resto da divisão.
+
+#### Precedência de operadores
+
+1. Pós-fixados
+- exp++
+- exp--
+2. Prefixados
+- ++exp
+- --exp
+3. Multiplicativos
+- multiplicação ( * )
+- divisão ( / )
+- módulo (resto da divisão) ( % )
+4. Aditivos
+- soma ( + )
+- subtração ( - )
+5. Atribuição
+- atribuição simples ( = )
+- atribuição com adição ( += )
+- atribuição com subtração ( -= )
+- atribuição com multiplicação ( *= )
+- atribuição com divisão ( /= )
+- atribuição com resto da divisão ( %= )
+
+
+
+
