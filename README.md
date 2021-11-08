@@ -5,4 +5,4 @@ Repositório para os desafios de projeto e atividades componentes do Bootcamp DI
 
 ### Lista de atividades:
 1. Criar um repositório no github usando git.
-2. 
+2. Variáveis, Tipos de Dados e Operadores Matemáticos em Java
