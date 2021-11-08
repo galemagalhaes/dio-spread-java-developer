@@ -48,6 +48,7 @@ Tipos de dados são especificações dos tamanhos e valores que podem ser armaze
 
 #### Tipos
 - Primitivos: 
+
 Numéricos: byte, short, int, long, float, double
 Textual: char
 Lógico: boolean (V ou F)
