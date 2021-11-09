@@ -1,6 +1,6 @@
 # Lógica Condicional e Controle de Fluxos em Java
 
-## Conceitos de Operadores Relacionais
+## Conceitos Sobre Operadores Relacionais
 
 #### O que são operadores relacionais?
 
@@ -11,7 +11,7 @@ Operadores relacionais são símbolos usados no código para fazer comparações
 - **Tamanho**: maior ( > ), maior ou igual ( >= ), menor ( < ), menor ou igual ( <= )
 
 
-## Conceitos de Operadores Lógicos
+## Conceitos Sobre Operadores Lógicos
 
 #### O que são operadores lógicos?
 
