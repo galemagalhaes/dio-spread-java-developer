@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Variáveis-Tipos-Operadores-em-Java/src/Variáveis-Tipos-Operadores-em-Java.iml" filepath="$PROJECT_DIR$/Variáveis-Tipos-Operadores-em-Java/src/Variáveis-Tipos-Operadores-em-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variáveis-Tipos-Operadores-em-Java/Variáveis-Tipos-Operadores-em-Java1.iml" filepath="$PROJECT_DIR$/Variáveis-Tipos-Operadores-em-Java/Variáveis-Tipos-Operadores-em-Java1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-spread-java-developer.iml" filepath="$PROJECT_DIR$/.idea/dio-spread-java-developer.iml" />
+    </modules>
+  </component>
+</project>

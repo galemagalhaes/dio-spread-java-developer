@@ -129,5 +129,36 @@ Operadores de atribuição determinam ou atribuem um valor a uma variável. Essa
 - atribuição com resto da divisão ( %= )
 
 
+## Conceitos sobre casting (conversões)
 
+#### O que é casting?
 
+Casting ou conversão é a transformação de uma variável de tipo menos específico para um tipo mais específico ou vice-versa.
+
+Transforma uma variável de menor capacidade de armazenamento em uma de maior capacidade ou transforma uma variável de maior capacidade de armazenamento em uma de menor capacidade. 
+
+- Upcast (implícito)
+
+A variável é promovida, ou seja, terá sua capacidade de armazenar aumentada. É implícito porque não é necessário especificar o tipo de valor que ela será capaz de armazenar, já que terá espaço suficiente.
+
+- Downcast (explícito)
+
+A variável é rebaixada, sua capacidade de armazenamento será reduzida. Nesse caso é necessário especificar que tipo de dado ela irá receber para que a conversão seja feita da maneira correta. É portanto explícito. É ainda necessário se preocupar com possíveis perdas de dados.
+
+O casting é aplicável tanto a tipos primitivos quanto a tipos compostos.
+
+#### Utilização
+
+|      | byte | short | char | int | long | float | double|
+|------|------|-------|------|-----|------|-------|-------|
+|**byte**|----| U - I | char |U - I|U - I |U - I  |U - I  |
+|**short**|D -E|  ----|char  |U - I|U - I |U - I  |U - I  |
+|**char**|D - E|D - E | ---- |U - I|U - I |U - I  |U - I  |
+|**int**|D - E|D - E  |D - E |---- |U - I |U - I  |U - I  |
+|**long**|D - E|D - E |D - E |D - E| ---- |U - I  |U - I  |
+|**float**|D - E|D - E|D - E |D - E|D - E | ----  |U - I  |
+|**double**|D - E|D - E|D - E|D - E|D - E |D - E  | ----  |
+
+Legenda 
+- U - I: Upcast implícito
+- D - E: Downcast explícito
